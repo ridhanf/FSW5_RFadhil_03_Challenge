@@ -7,7 +7,6 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
-  color: white;
 }
 
 h1{
@@ -40,52 +39,58 @@ body{
   font-weight: bold;
 }
 
-nav{
+nav a, ul{
+  padding: 10px 70px;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: bolder;
 }
 
-.bg-1{
-  background-image: url('../img/bg1.png');
+#SignUpModal, #LoginModal{
+  color: black;
+}
+
+.bg-nav{
+  background: rgba(0, 0, 0, 0.5);
+  height: 90px;
+}
+
+.bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6{
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: static;
   background-size: cover;
 }
 
+.bg-1{
+  background-image: url('../img/bg1.png');
+}
+
 .bg-2{
   background-image: url('../img/bg2.png');
-  background-repeat: no-repeat;
-  background-attachment: static;
-  background-size: cover;
 }
 
 .bg-3{
   background-image: url('../img/bg3.png');
-  background-repeat: no-repeat;
-  background-attachment: static;
-  background-size: cover;
 }
 
 .bg-4{
   background-image: url('../img/bg4.png');
-  background-repeat: no-repeat;
-  background-attachment: static;
-  background-size: cover;
 }
 
 .bg-5{
   background-image: url('../img/bg5.png');
-  background-repeat: no-repeat;
-  background-attachment: static;
-  background-size: cover;
+}
+
+.bg-6{
+  background-image: url('../img/bg5.png');
 }
 
 .container{
   width: 1441.55px;
   margin: 0 0;
   padding: 0 0;
+  color: white;
   display: grid;
   grid-template-columns: 1441.55px;
   grid-template-rows: repeat(6, 960.14px);
@@ -102,13 +107,13 @@ nav{
   grid-area: main;
 }
 
-main{
+.call-to-action{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-main h1{
+.call-to-action h1{
   padding-top: 20%;
 }
 
