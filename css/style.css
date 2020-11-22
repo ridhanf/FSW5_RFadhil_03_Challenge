@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0 0;
+  padding: 0 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -58,40 +58,77 @@ nav{
   background-image: url('../img/bg2.png');
   background-repeat: no-repeat;
   background-attachment: static;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-3{
   background-image: url('../img/bg3.png');
   background-repeat: no-repeat;
   background-attachment: static;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-4{
   background-image: url('../img/bg4.png');
   background-repeat: no-repeat;
   background-attachment: static;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-5{
   background-image: url('../img/bg5.png');
   background-repeat: no-repeat;
   background-attachment: static;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .container{
-  margin: 0;
+  width: 1441.55px;
+  margin: 0 0;
   padding: 0 0;
+  display: grid;
+  grid-template-columns: 1441.55px;
+  grid-template-rows: repeat(6, 960.14px);
+  grid-template-areas: 
+    "main"
+    "about"
+    "features"
+    "requirements"
+    "quotes"
+    "subscribe";
 }
 
 .main{
-  width: auto;
-  padding: 0 0;
+  grid-area: main;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1{
+  padding-top: 20%;
+}
+
+.about{
+  grid-area: about;
+}
+
+.features{
+  grid-area: features;
+}
+
+.requirements{
+grid-area: requirements;
+}
+
+.quotes{
+grid-area: quotes;
 }
 
 .subscribe{
+  grid-area: subscribe;
   background-color: black;
 }
