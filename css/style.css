@@ -7,6 +7,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
+  color: white;
 }
 
 h1{
@@ -45,12 +46,52 @@ nav{
   font-weight: bolder;
 }
 
+.bg-1{
+  background-image: url('../img/bg1.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: static;
+  background-size: cover;
+}
+
+.bg-2{
+  background-image: url('../img/bg2.png');
+  background-repeat: no-repeat;
+  background-attachment: static;
+  background-size: 100% 100%;
+}
+
+.bg-3{
+  background-image: url('../img/bg3.png');
+  background-repeat: no-repeat;
+  background-attachment: static;
+  background-size: 100% 100%;
+}
+
+.bg-4{
+  background-image: url('../img/bg4.png');
+  background-repeat: no-repeat;
+  background-attachment: static;
+  background-size: 100% 100%;
+}
+
+.bg-5{
+  background-image: url('../img/bg5.png');
+  background-repeat: no-repeat;
+  background-attachment: static;
+  background-size: 100% 100%;
+}
+
+.container{
+  margin: 0;
+  padding: 0 0;
+}
+
 .main{
   width: auto;
   padding: 0 0;
-  background-image: url('../img/Group1.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  color: white;
+}
+
+.subscribe{
+  background-color: black;
 }
