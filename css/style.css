@@ -27,16 +27,26 @@ h3 {
   font-weight: bold;
 }
 
+h4{
+  color: orange;
+  font-weight: bold;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: normal;
 }
 
-.button {
+.date {
+  font-size: smaller;
+}
+
+.btn-warning {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: bold;
+  padding: 10px 55px;
 }
 
 nav a, ul {
@@ -165,17 +175,81 @@ grid-area: requirements;
   color: white;
 }
 
-.table h4{
-  color: orange;
-  font-weight: bold;
-}
-
 table, th, td {
   border: 0.02px solid white;
 }
 
 .quotes {
 grid-area: quotes;
+}
+
+#quotes {
+  display: grid;
+  grid-template-columns: .45fr .75fr .5fr .2fr 1fr;
+  grid-template-rows: .5fr repeat(3,1fr) .5fr;
+  grid-template-areas:
+    ". .         . .          ." 
+    ". .         . .          content-2"
+    ". content-1 . content-3  content-3"
+    ". .         . .          content-4"
+    ". .         . .          .";
+}
+
+.content-1 {
+  grid-area: content-1;
+}
+
+.content-2 {
+  grid-area: content-2;
+}
+
+.content-2 h3 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.content-3 {
+  grid-area: content-3;
+}
+
+.content-3 h3 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.content-4 {
+  grid-area: content-4;
+}
+
+.content-4 h3 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#quotes img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.bg-dark {
+  width: 430px;
+  height: 150px;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+.bg-darkcc {
+  height: 130px;
+}
+
+.quotes .fa-twitter {
+  font-size: small;
+  color: white;
 }
 
 .subscribe {
