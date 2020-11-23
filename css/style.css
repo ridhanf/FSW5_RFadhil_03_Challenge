@@ -66,29 +66,23 @@ nav a, ul {
 }
 
 .bg-2 {
-  background-image: url('../img/bg2.png');
-}
-
-.layer {
-  background-color: rgba(2, 2, 2, 0.7);
-  position: static;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  background-image: radial-gradient(transparent, black), url('../img/bg2.png');
 }
 
 .bg-3 {
-  background-image: url('../img/bg3.png');
+  background-image: radial-gradient(transparent, black), url('../img/bg3.png');
 }
 
 .bg-4 {
-  background-image: url('../img/bg4.png');
+  background-image: radial-gradient(transparent, black), url('../img/bg4.png');
 }
 
 .bg-5 {
   background-image: url('../img/bg5.png');
-  background-attachment: contain;
+}
+
+.bg-6 {
+  background-color: black;
 }
 
 .container {
@@ -157,6 +151,27 @@ nav a, ul {
 }
 .requirements {
 grid-area: requirements;
+}
+
+.requirements .row {
+  position: relative;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.table {
+  width: 35%;
+  margin-left: 10%;
+  color: white;
+}
+
+.table h4{
+  color: orange;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 0.02px solid white;
 }
 
 .quotes {
