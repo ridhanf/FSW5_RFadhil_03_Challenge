@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-*{
+* {
   margin: 0 0;
   padding: 0 0;
   font-family: 'Open Sans', sans-serif;
@@ -9,80 +9,89 @@
   font-weight: normal;
 }
 
-h1{
+h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 80px;
   font-weight: bold;
 }
 
-h2{
+h2 {
   font-family: 'Bebas Neue', cursive;
   font-size: 36px;
   font-weight: bold;
 }
 
-h3{
+h3 {
   font-family: 'Bebas Neue', cursive;
   font-size: 24px;
   font-weight: bold;
 }
 
-body{
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: normal;
 }
 
-.button{
+.button {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: bold;
 }
 
-nav a, ul{
+nav a, ul {
   padding: 10px 70px;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: bolder;
 }
 
-#SignUpModal, #LoginModal{
+#SignUpModal, #LoginModal {
   color: black;
 }
 
-.bg-nav{
+.bg-nav {
   background: rgba(0, 0, 0, 0.5);
   height: 90px;
 }
 
-.bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6{
+.bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6 {
   background-repeat: no-repeat;
   background-attachment: static;
   background-size: cover;
 }
 
-.bg-1{
+.bg-1 {
   background-image: url('../img/bg1.png');
 }
 
-.bg-2{
+.bg-2 {
   background-image: url('../img/bg2.png');
 }
 
-.bg-3{
+.layer {
+  background-color: rgba(2, 2, 2, 0.7);
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-3 {
   background-image: url('../img/bg3.png');
 }
 
-.bg-4{
+.bg-4 {
   background-image: url('../img/bg4.png');
 }
 
-.bg-5{
+.bg-5 {
   background-image: url('../img/bg5.png');
   background-attachment: contain;
 }
 
-.container{
+.container {
   width: 1441.55px;
   margin: 0 0;
   padding: 0 0;
@@ -99,22 +108,22 @@ nav a, ul{
     "subscribe";
 }
 
-.main{
+.main {
   grid-area: main;
 }
 
-.call-to-action{
+.call-to-action {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#home h1{
+#home h1 {
   padding-top: 15%;
   padding-bottom: 50px;
 }
 
-#home h3{
+#home h3 {
   padding-bottom: 50px;
 }
 
@@ -122,28 +131,40 @@ nav a, ul{
   padding-top: 150px;
 } */
 
-.about{
+.about {
   grid-area: about;
 }
 
-.features{
+.about .content{
+  position: relative;
+  padding-top: 17%; 
+  padding-left: 12%;
+}
+
+.about .img{
+  position: relative;
+  padding-top: 20%; 
+  padding-right: 8%;
+}
+
+.features {
   grid-area: features;
 }
 
-.requirements{
+.requirements {
 grid-area: requirements;
 }
 
-.quotes{
+.quotes {
 grid-area: quotes;
 }
 
-.subscribe{
+.subscribe {
   grid-area: subscribe;
   background-color: black;
 }
 
-.subscribe #subscribe-content{
+.subscribe #subscribe-content {
   padding-top: 25%;
   padding-left: 20%;
   width: 1441.55px;
@@ -151,47 +172,47 @@ grid-area: quotes;
   display: block;
 }
 
-.subscribe img{
+.subscribe img {
   padding-top: 30%;
   padding-left: 200px;
 }
 
-hr{
+hr {
   display: block; 
   border-top: 1px solid #ccc;
 }
 
-footer li{
+footer li {
   font-weight: bold;
 }
 
-.subscribe .shortcut{
+.subscribe .shortcut {
   padding-left: 400px;
   padding-bottom: 5px;
 }
 
-.subscribe .shortcut li{
+.subscribe .shortcut li {
   padding-left: 20px;
 }
 
-.fa-facebook, .fa-twitter, .fa-youtube-play, .fa-twitch{
+.fa-facebook, .fa-twitter, .fa-youtube-play, .fa-twitch {
   font-size: x-large;
   color: white;
   padding-left:  20px;
   padding-right: 20px;
 }
 
-.fa-facebook:hover{
+.fa-facebook:hover {
   color: #3b5998;
 }
 
-.fa-twitter:hover{
+.fa-twitter:hover {
   color: turquoise;
 }
 
-.fa-youtube-play:hover{
+.fa-youtube-play:hover {
   color: red;
 }
-.fa-twitch:hover{
+.fa-twitch:hover {
   color: #6441a5;
 }
