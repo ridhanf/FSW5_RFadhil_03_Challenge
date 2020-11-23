@@ -127,10 +127,6 @@ nav a, ul {
   padding-bottom: 50px;
 }
 
-/* .call-to-action a{
-  padding-top: 150px;
-} */
-
 .about {
   grid-area: about;
 }
@@ -151,6 +147,14 @@ nav a, ul {
   grid-area: features;
 }
 
+
+.features #features-content {
+  padding-top: 20%;
+  padding-left: 30%;
+  width: 1441.55px;
+  height: 650px;
+  display: block;
+}
 .requirements {
 grid-area: requirements;
 }
