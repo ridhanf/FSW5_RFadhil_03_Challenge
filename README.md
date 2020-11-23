@@ -1,7 +1,7 @@
 # Code Challenge Chapter 3
 
 This repository is a simple landing page with the application of HTML and CSS (using Bootstrap and manual type).
-This repositpry created to complete the task of Chapter 3 Code Challenge from Binar Academy.
+This repository created to complete the task of Chapter 3 Code Challenge from Binar Academy.
 
 Feel free to clone and code it by your self to learn more about HTML and CSS.
 
