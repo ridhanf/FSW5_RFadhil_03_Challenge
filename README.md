@@ -1,10 +1,9 @@
 # Code Challenge Chapter 3
 
-This repository was created to complete the task of Chapter 3 code challenge from Binar Academy.
-All this code is type by [me](https://www.linkedin.com/in/ridhanf).
- 
+This repository is a simple landing page with the application of HTML and CSS (using Bootstrap and manual type).
+This repositpry created to complete the task of Chapter 3 Code Challenge from Binar Academy.
 
-Fell free to clone and code it by your self to learn more about HTML and CSS.
+Feel free to clone and code it by your self to learn more about HTML and CSS.
 
 ```sh
 git clone https://github.com/ridhanf/FSW5_RFadhil_03_Challenge.git
