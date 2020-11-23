@@ -1,7 +1,7 @@
 # Code Challenge Chapter 3
 
 This repository was created to complete the task of Chapter 3 code challenge from Binar Academy.
-All this code is type by [me](htttps://www.linkedin.com/in/ridhanf)
+All this code is type by [me](https://www.linkedin.com/in/ridhanf).
  
 
 Fell free to clone and code it by your self to learn more about HTML and CSS.
