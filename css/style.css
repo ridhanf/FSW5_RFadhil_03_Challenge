@@ -135,14 +135,15 @@ nav a, ul {
   grid-area: about;
 }
 
-.about .content{
+.about .about-title{
   position: relative;
   padding-top: 17%; 
   padding-left: 12%;
 }
 
-.about .img{
+.about .slider{
   position: relative;
+  width: 200%;
   padding-top: 20%; 
   padding-right: 8%;
 }
